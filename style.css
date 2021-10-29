@@ -1,0 +1,83 @@
+body {
+  /* max-width: 1140px; */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  height: 7rem;
+  background-color: #b12c3f;
+  padding-right: 1rem;
+  position: fixed;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+    ul {
+      display: flex;
+    flex-direction: column; } }
+
+li {
+  margin-left: 5rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: white;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #19191b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+#projects {
+  background-color: #3f4d6c;
+  height: 10vh;
+}
+
+.project-tile {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 2rem;
+}
+
+#profile-link {
+  margin: 2rem;
+  color: white;
+}
+
+.github-link {
+  height: 10vh;
+  color: white;
+  border-top: .5rem solid #b12c3f;
+  background-color: #19191b;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
